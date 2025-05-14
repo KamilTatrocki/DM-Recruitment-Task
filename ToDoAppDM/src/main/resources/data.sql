@@ -54,7 +54,7 @@ INSERT INTO items (expiration_date, product_id) VALUES
                                                     ('2026-02-15',15);
 
 
-INSERT INTO location_of_items (IDITEM, IDSHELVES) VALUES
+INSERT INTO location_of_items (ITEM_ID, SHELF_ID) VALUES
                                                       (1, 1),  (2, 2),  (3, 3),  (4, 4),
                                                       (5, 1),  (6, 2),  (7, 3),  (8, 4),
                                                       (9, 1), (10, 2), (11, 3), (12, 4),
